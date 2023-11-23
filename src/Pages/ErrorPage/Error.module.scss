@@ -1,0 +1,13 @@
+$mainColor: #f59b00;
+
+.err {
+  background: #2f2f2f;
+  color: $mainColor;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  height: 100vh;
+}

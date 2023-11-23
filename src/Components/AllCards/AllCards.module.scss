@@ -1,0 +1,40 @@
+.wrap {
+  width: 85%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  .btns {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    button {
+      color: #2f2f2f;
+      padding: 20px;
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%; /* 30px */
+      text-transform: capitalize;
+      opacity: 0.8;
+      background-color: inherit;
+      border: none;
+      border-bottom: 5px solid transparent;
+      &:hover {
+        border-bottom: 5px solid #f59b00;
+        opacity: 1;
+      }
+    }
+  }
+
+  .search {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+}

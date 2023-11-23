@@ -1,0 +1,75 @@
+.apply {
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 100vh;
+    border-radius: 10px;
+    background: rgba(47, 47, 47, 0.95);
+    .box1 {
+      background-image: url(../../assets/boy.png);
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 40%;
+      height: 100%;
+    }
+    .box2 {
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      width: 50%;
+      h4 {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 31px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; /* 43.4px */
+        text-transform: capitalize;
+      }
+      .topInputs {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .form {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+
+        .label {
+          transform: translate(-95px);
+          width: 75%;
+          display: flex;
+          justify-content: start;
+          align-items: center;
+
+          label {
+            cursor: pointer;
+            transform: translate(-95px);
+            width: 95%;
+            color: #fff;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            text-transform: capitalize;
+            opacity: 0.35;
+          }
+        }
+      }
+    }
+  }
+}

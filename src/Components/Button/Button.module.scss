@@ -1,0 +1,27 @@
+$mainColor: #f59b00;
+
+.button {
+  display: inline-flex;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.style1 {
+  background-color: $mainColor;
+  color: white;
+}
+
+.style2 {
+  background-color: transparent;
+  color: $mainColor;
+  border-radius: 5px;
+  border: 1px solid rgba(245, 155, 0, 0.2);
+}

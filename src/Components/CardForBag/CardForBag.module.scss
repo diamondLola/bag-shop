@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  .card {
+    margin: 30px auto;
+    width: 260px;
+    height: 273px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #fdeef1;
+    opacity: 0.5;
+    background: #ffe1e8;
+    transition: 0.3s;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

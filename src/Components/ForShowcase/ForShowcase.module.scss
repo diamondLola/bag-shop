@@ -1,0 +1,34 @@
+$mainColor: #2f2f2f;
+
+.forShow {
+  background-color: $mainColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .wrap {
+    padding-top: 30px;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .boxForShow {
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+    .boxForImg {
+      width: 45%;
+      display: flex;
+      justify-content: baseline;
+      align-items: end;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

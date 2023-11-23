@@ -1,0 +1,14 @@
+.boxLogos{
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .wrap{
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+}
